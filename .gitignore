@@ -1,6 +1,2 @@
-aws/*plan
-aws/.terraform
-aws/appspec.yaml
-aws/taskdef.json
-aws/imageDetail.json
-aws/*.zip
+*plan
+.terraform
