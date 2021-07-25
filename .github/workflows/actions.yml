@@ -1,0 +1,8 @@
+name: Linting
+on: [push]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup TFLint
+        uses: terraform-linters/setup-tflint@v1.1.0
